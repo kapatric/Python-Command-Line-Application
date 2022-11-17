@@ -1,5 +1,5 @@
 DROP TABLE IF EXISTS contacts;
-DROP TABLE IF EXISTS address;
+DROP TABLE IF EXISTS addresses;
 
 CREATE TABLE contacts (
   id SERIAL PRIMARY KEY,
