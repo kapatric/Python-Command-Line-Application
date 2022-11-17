@@ -9,6 +9,7 @@ CREATE TABLE contacts (
 );
 
 CREATE TABLE addresses (
+  id SERIAL PRIMARY KEY,
   street_number INT,
   street_name VARCHAR(100),
   city_name VARCHAR(100),

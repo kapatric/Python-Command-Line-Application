@@ -12,7 +12,7 @@
     psql -d contacts < seed.sql 
 
  - From here one can use the following in enter the library:
-  psql
+  psql postgres
   \c contacts
 
  - The use of the most common SQL commands ffrom here are pretty straightforward in terms of altering the library:

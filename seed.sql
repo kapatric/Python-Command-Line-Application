@@ -4,7 +4,7 @@
 -- ALTER SEQUENCE contacts_id_seq RESTART WITH 1;
 -- ALTER SEQUENCE addresses_id_seq RESTART WITH 1;
 
--- Adresses
+-- Addresses
 INSERT INTO addresses(street_number, street_name, city_name, state, zipcode) VALUES (145, 'Pine Ave.', 'New York', 'NY', 10011);
 INSERT INTO addresses(street_number, street_name, city_name, state, zipcode) VALUES (7654, 'Main St.', 'West Hollywood', 'CA', 90069);
 INSERT INTO addresses(street_number, street_name, city_name, state, zipcode) VALUES (6969, 'Castro St.', 'San Francisco', 'CA', 94109);
